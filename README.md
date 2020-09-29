@@ -26,7 +26,7 @@ Then the program uses arrays containing names to give a name to the correspondin
    6.enter the command : git clone and paste the link you copied. example: git clone https://github.com/diellamutoni8/project2.git
    
 # 5. See the project online
-
+https://diellamutoni8.github.io/project2/
 
 # 6.Technologies Used
 
