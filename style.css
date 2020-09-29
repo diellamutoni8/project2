@@ -1,0 +1,35 @@
+body {
+
+    background-color: darkred;
+    font-family: cursive;
+  }
+  .row{
+      background-image: url('https://res.cloudinary.com/dyqt4ascs/image/upload/v1601395392/design_rwd5eq.jpg');
+  }
+  h1 {
+    color: cadetblue;
+  }
+  span {
+    color:royalblue;
+  }
+  .col-md-7 {
+    padding: 80px;
+    color: white
+  }
+ 
+  .name{
+      color:white;
+  }
+  .jumbotron
+  {
+    padding: 60px;
+  }
+  em{
+    font-weight: bold;
+  }
+  h2{
+    font-weight:bolder;
+  }
+  #boys .p{
+      float: right;
+  }

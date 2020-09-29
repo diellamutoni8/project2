@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="script.js" ></script>
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="jumbotron">
+            <h1>GHANIAN NAME</h1>
+
+
+            <p>Akan Namer is a website that is going to takes a user's birthday and calculates the day of the week
+              you were born and depending on your gender it gives you a <strong><em>Ghanian Name </em></strong>
+              derived from Ghanian culture.<br><br></p>
+             
+              <div class="row ">
+                <div class="name">
+                    <h3>Male</h3>
+                    <ul>
+                        <li>Sunday: Kwasi</li>
+                        <li>Monday: Kwadwo</li>
+                        <li>Tuesday: Kwabena</li>
+                        <li>Wednesday: Kwaku</li>
+                        <li>Thursday:  Yaw</li>
+                        <li>Friday: Kofi</li>
+                        <li>Saturday: Kwame</li>
+                    </ul>
+                
+                
+                    <h3>Female</h3>
+                    <ul>
+                        <li>Sunday:  Akosua</li>
+                        <li>Monday: Adwoa</li>
+                        <li>Tuesday: Abenaa</li>
+                        <li>Wednesday: : Akua</li>
+                        <li>Thursday:  Yaa</li>
+                        <li>Friday: Afua</li>
+                        <li>Saturday: Ama</li>
+                    </ul>
+                </div>
+                </div>
+            <strong>  Fill out the form and get to know your Ghanian name!</strong>
+          </div>
+        
+    
+        <div class="col-md-7">
+          <form name="ghanianForm" action="" id="number" >
+            
+              <legend>Fill the Form</legend>
+              <strong>Enter your Birthday:</strong><br>
+              <br>
+              DAY : <input type="number" name="days"  placeholder= " please enter a day of the month" ><br>
+              <br>
+              MONTH : <input type="number"  name="months"  placeholder=" please enter a month"><br>
+              <br>
+              YEAR : <input type="number"  name="years" max="2020"  placeholder=" please enter a year"><br>
+              <br>
+              <br>
+              <strong> Choose your Gender:</strong>
+              <select name="gender" >
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+              </select><br>
+              
+              <br>
+              <input type="button"  class="btn btn-success" onclick="alert(getName())" value="Check your Ghanian name">
+
+           
+          </form>
+          <br>
+        </div>
+    </div>
+  </div>
+    
+</body>
+</html>
